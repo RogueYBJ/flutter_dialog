@@ -26,9 +26,9 @@ dependencies:
   cupertino_icons: ^0.1.2
   flutter_dialog: 
     path: ../
-  flutter_uikit:
-    git:
-      url: https://github.com/RogueYBJ/flutter_uikit.git
+  # flutter_uikit:
+  #   git:
+  #     url: https://github.com/RogueYBJ/flutter_uikit.git
 
 dev_dependencies:
   flutter_test:

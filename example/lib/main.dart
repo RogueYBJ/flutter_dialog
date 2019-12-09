@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dialog/dialogView/dialog_center_view.dart';
-import 'package:flutter_uikit/flutter_uikit.dart';
-import 'package:flutter_uikit/ui_button.dart';
+// import 'package:flutter_uikit/flutter_uikit.dart';
+// import 'package:flutter_uikit/ui_button.dart';
 
 void main() => runApp(MyApp());
 
@@ -128,12 +128,12 @@ class _MyHomePageState extends State<MyHomePage> {
   ),
 ),
             new MyButton(),
-            UIButton(
-              buttonState: UIButtonState(title: '弹窗'),
-              onPressed: () {
-                // showCupertinoDialog(context: context, builder: (_) => new DialogCenterView(dialogState: new DialogState(text: '为了方便您获取运费，\n请先绑定银行卡！'),));
-              },
-            ),
+            // UIButton(
+            //   buttonState: UIButtonState(title: '弹窗'),
+            //   onPressed: () {
+            //     // showCupertinoDialog(context: context, builder: (_) => new DialogCenterView(dialogState: new DialogState(text: '为了方便您获取运费，\n请先绑定银行卡！'),));
+            //   },
+            // ),
             PopupMenuButton(
               // padding: EdgeInsets.all(0),
               // offset: Offset(1, 1),
